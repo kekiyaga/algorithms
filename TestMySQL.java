@@ -25,7 +25,7 @@ import org.jsoup.select.Elements;
 
 /**
  *
- * @author Kuteesa Kiyaga
+ * @author dadsadsadasdsa
  */
 public class TestMySQL {
     public static void main(String[] args) throws Exception {
@@ -33,8 +33,8 @@ public class TestMySQL {
         Properties connProps = new Properties();
         
         //connection properties to connect to the MySQL database; omitted for security purposes
-        connProps.put("user", "[omitted]");
-        connProps.put("password", "[omitted]");
+        connProps.put("user", "username");
+        connProps.put("password", "password");
         connProps.put("useSSL", "true");
         
         //connection object that conneects to the MySQL URL
